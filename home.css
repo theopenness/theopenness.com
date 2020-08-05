@@ -1,0 +1,27 @@
+body{
+    
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1};
+}
+.stuff{
+    width:90%;
+    max-width:600px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.stuff img{
+    width:100px;
+    padding:20px;
+}
+.stuff img:hover{
+    opacity: 0.6;
+}
