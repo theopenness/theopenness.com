@@ -1,27 +1,129 @@
+@font-face { font-family: TravelingTypewriter; src: url('assets/TravelingTypewriter.ttf'); }
+html {
+    scroll-behavior: smooth;
+}
 body{
-    
-    margin-right: auto;
-    margin-left: auto;
+    font-family: TravelingTypewriter;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
     animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1};
 }
-.stuff{
-    width:90%;
+.slick-slide {
+    outline: none
+}
+
+.title{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.content{
+    padding:16px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.frontpage{
+    width:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('assets/artistreeblur.jpg');
+    height:500px;
+}
+.header{
+    background-color: white;
+    padding: 10px 16px;
+    color: #f1f1f1;
+}
+.videos{
+    background-image: url('assets/musicblur.jpg');
+    color:white;
+}
+.videoreleases{
+    margin: 0 auto;
+    max-width:1200px;
+    width:92%;
+}
+.music{
+    background-image: url('assets/musicblur.jpg');
+    color:white;
+}
+.musicreleases{
+    margin: 0 auto;
+    max-width:1200px;
+    width:92%;
+}
+.rcrd{
+    position: relative;
+}
+.rcrd img{
+    margin: 0 auto;
     max-width:600px;
+    width:95%;
+    display:block;
+}
+.rcrd:hover{
+    filter: brightness(110%);
+}
+.collaborators{
+    background-image: url('assets/collabblur.jpg');
+    color:white;
+}
+.text{
+    margin:0 auto;
+    max-width:1000px;
+    width:90%;
+}
+.names{
+    -webkit-columns: 2 200px;
+    -moz-columns: 2 200px;
+    columns: 2 200px;
+}
+.bio{
+    background-image: url('assets/collabblur.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+.footer{
+    width:100%;
     
+    
+    padding-top: 10px;
+    padding-bottom:5px;
+}
+.footer img{
+    height:50px;
+    padding: 0 10px;
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
-.stuff img{
-    width:100px;
-    padding:20px;
-}
-.stuff img:hover{
-    opacity: 0.6;
+
+@media screen and (max-width: 600px) {
+    .header{
+        display:none;
+    }
+    .topnav{
+        display: block;
+    }
 }

@@ -1,27 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
 	<title>Openness</title>
 	<link rel='icon' href='assets/favicon.ico' type='image/ico'>	
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="home.css">
-	
-	<style>
-		body{
-			background-image: url('assets/artistreeblur.jpg');
-		}
-	</style>
+	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel='stylesheet' type='text/css' href='home.css'>
 </head>
 
 <body>
-	<div class='stuff'>
-		<a href='https://openness.bandcamp.com/'><img src='assets/bandcamp.png'/></a>
-		<a href='https://www.instagram.com/theopenness/'><img src='assets/instagram.png'/></a>
-		<a href='https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4'><img src='assets/spotify.png'/></a>
-	</div>
+
+	<!--<div class='frontpage'>
+		
+	</div>-->
 	
+	<div class='header'>
+		<div class='topnav'>
+			<a onclick="document.getElementById('videos').scrollIntoView(true);">Videos</a>
+			<a onclick="document.getElementById('music').scrollIntoView(true);">Music</a>
+			<a onclick="document.getElementById('collaborators').scrollIntoView(true);">Collaborators</a>
+			<a onclick="document.getElementById('bio').scrollIntoView(true);">Bio</a>
+			<!--<img src='assets/menuicon.png' class='menu' onclick='openNavModal()' style='height:30px;'>-->
+		</div>
+		<!--<div class='navmodal' style='display:none;'>
+			<span class='close cursor' onclick='closeNavModal()'>×</span>
+			<div class='navmodal-content'>
+				<a href='music'>Music</a>
+				<br>
+				<a href='sheetslessons'>Sheets/Lessons</a>
+				<br>
+				<a href='photo'>Photo</a>
+				<br>
+				<a href='art'>Art</a>
+				<br>
+				<a href='about'>About</a>
+				<br>
+			</div>
+		</div>-->
+	</div>
+
+	
+
+	<div class='content videos' id='videos'>
+		<div class='title'>Videos</div>
+		<div class='videoreleases'>
+			<div class='vid'>
+				<div class="container">
+					<iframe class="responsive-iframe" src="https://www.youtube.com/embed/aseuyRHniow?controls=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class='vid'>
+				<div class="container">
+					<iframe class="responsive-iframe" src="https://www.youtube.com/embed/33rpVvb1GZU?controls=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class='vid'>
+				<div class="container">
+					<iframe class="responsive-iframe" src="https://www.youtube.com/embed/AqsTk0mkafA?controls=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class='content music' id='music'>
+		<div class='title'>Music</div>
+		<div class='musicreleases'>
+			<a href='https://openness.bandcamp.com/'><div class='rcrd'><img src='assets/journey.jpg'/></div></a>
+			<a href='https://openness.bandcamp.com/album/songs-from-the-open-nest'><div class='rcrd'><img src='assets/opennest.jpg'/></div></a>
+			<a href='https://openness.bandcamp.com/album/artistree'><div class='rcrd'><img src='assets/artistree.jpg'/></div></a>
+			<a href='https://openness.bandcamp.com/album/blossom'><div class='rcrd'><img src='assets/blossom.jpg'/></div></a>
+		</div>
+	</div>
+
+	<div class='content collaborators' id='collaborators'>
+		<div class='title'>Collaborators</div>
+		<div class='text names'>
+			Oliver Qiu<br>Kyle Loeffler<br>Ronan Dowling<br>Hannah Stomski (Rosemary)<br>Jaemeraquan David (Jaemeraquan)<br>Julia Stoermer (Jooly)<br>Kevin Cincotta<br>
+			Brodie Eastridge<br>Joseph Figueroa<br>Alex Kah<br>Kendon McGehee (Tarantula Bill)<br>Dante Robledo<br>Josh Van Wey<br>Lauren Tilton (ii/lo)<br>Julian Strütt (SENTO)<br>
+			Bridget Hartman<br>Chere Merrick<br>Nate Perkins<br>Julia Walters<br>Emilia Richter<br>Mirana Junasa<br>Riley Merino<br>April Levin (April Gloom)<br>Cash Globe<br>
+			Julia Hoffman<br>Cole Eckert<br>Sam Waugaman<br>Alia Norwood<br>Chris Lee (Scooterraps)<br>Will Cashion<br>Ben Parrish
+		</div>
+	</div>
+
+	<div class='content bio' id='bio'>
+		<div class='title'>Bio</div>
+		<div class='text'>
+			<p>
+			Openness is the recording project of Keelan McDorman, brought to life through collaboration with a plethora of musicians. 
+			These dreamy, psychedelic tunes will transport you out of your thoughts while still providing catchy pop melodies to grab hold of on the way out of your head. 
+			The name is the essence of the music, for it is created from a place of openness...openness of consciousness, mind, heart, and soul. 
+			That openness translates to the listener. When music is created genuinely, it will be received genuinely. 
+			Everything about each tune is entirely up for interpretation; take from it what you will. Keelan feels the songs come through him rather than from him, 
+			almost as if he is a musical messenger.
+			</p>
+			<img src='assets/bio.jpg' style='width:80%;max-width:800px;'/>
+			<p>
+			Each Openness track is artfully crafted, recorded and produced in Keelan’s home, 
+			“The Open Nest” cottage in Denver, Colorado. He typically plays drums, keys, and sings the songs, 
+			though his instrumental horizons are ever expanding. Nevertheless, Openness will never cease to be an adventure of collaboration. 
+			In 8 months, Openness has released 23 songs, featuring 19 different musicians. That gives you an idea of the trajectory of Openness. 
+			This musical message is stamped for priority delivery.
+			</p>
+		</div>
+	</div>
+
+	<div class='footer'>
+		<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.png"></a>
+		<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.png"></a>
+		<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.png"></a>
+		<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.png"></a>
+	</div>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="init.js"></script>
+
 </body>
 
 </html>
