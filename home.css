@@ -16,17 +16,32 @@ body{
     outline: none
 }
 
-.title{
-    font-size: 32px;
-    padding-bottom: 10px;
-}
 .content{
     padding:16px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+.title{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
 
+.header{
+    background-color: white;
+    padding: 10px 16px;
+    color: #f1f1f1;
+    font-size:20px;
+}
+.header a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+}
 .frontpage{
     width:100%;
     background-repeat: no-repeat;
@@ -34,11 +49,6 @@ body{
     background-size: cover;
     background-image: url('assets/artistreeblur.jpg');
     height:500px;
-}
-.header{
-    background-color: white;
-    padding: 10px 16px;
-    color: #f1f1f1;
 }
 .videos{
     background-image: url('assets/musicblur.jpg');
@@ -49,6 +59,7 @@ body{
     max-width:1200px;
     width:92%;
 }
+
 .music{
     background-image: url('assets/musicblur.jpg');
     color:white;
@@ -70,6 +81,7 @@ body{
 .rcrd:hover{
     filter: brightness(110%);
 }
+
 .collaborators{
     background-image: url('assets/collabblur.jpg');
     color:white;
@@ -84,6 +96,7 @@ body{
     -moz-columns: 2 200px;
     columns: 2 200px;
 }
+
 .bio{
     background-image: url('assets/collabblur.jpg');
     background-repeat: no-repeat;
@@ -102,6 +115,7 @@ body{
     height:50px;
     padding: 0 10px;
 }
+
 .container {
     position: relative;
     overflow: hidden;
