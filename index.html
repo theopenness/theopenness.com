@@ -9,22 +9,58 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel='stylesheet' type='text/css' href='home.css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-	<!--<div class='frontpage'>
-		
-	</div>-->
+	<div class="topnav">
+		<a href="#home" class="active">Logo</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks">
+			<a onclick="document.getElementById('videos').scrollIntoView(true);myFunction();">Videos</a>
+			<a onclick="document.getElementById('music').scrollIntoView(true);myFunction();">Music</a>
+			<a onclick="document.getElementById('collaborators').scrollIntoView(true);myFunction();">Collaborators</a>
+			<a onclick="document.getElementById('bio').scrollIntoView(true);myFunction();">Bio</a>
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+		<div class='iconz'>
+			<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
+			<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
+			<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.svg"></a>
+			<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.svg"></a>
+		</div>
+	</div>
+	
 	
 	<div class='header'>
-		<a onclick="document.getElementById('videos').scrollIntoView(true);">Videos</a>
-		<a onclick="document.getElementById('music').scrollIntoView(true);">Music</a>
-		<a onclick="document.getElementById('collaborators').scrollIntoView(true);">Collaborators</a>
-		<a onclick="document.getElementById('bio').scrollIntoView(true);">Bio</a>
+		<div class='sections'>
+			<a onclick="document.getElementById('videos').scrollIntoView(true);">Videos</a>
+			<a onclick="document.getElementById('music').scrollIntoView(true);">Music</a>
+			<a onclick="document.getElementById('collaborators').scrollIntoView(true);">Collaborators</a>
+			<a onclick="document.getElementById('bio').scrollIntoView(true);">Bio</a>
+		</div>
+		<div class='icons'>
+			<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
+			<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
+			<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.svg"></a>
+			<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.svg"></a>
+		</div>
 	</div>
-
 	
+
+	<div class='content music' id='music'>
+		<div class='title'>Music</div>
+		<div class='musicreleases'>
+			<a href='/journey/'><div class='rcrd'><img src='assets/journey.jpg'/><h1>Adore the Journey</h1></div></a>
+			<a href='https://openness.bandcamp.com/album/songs-from-the-open-nest'><div class='rcrd'><img src='assets/opennest.jpg'/><h1>Songs from the Open Nest</h1></div></a>
+			<a href='https://openness.bandcamp.com/album/artistree'><div class='rcrd'><img src='assets/artistree.jpg'/><h1>Artistree</h1></div></a>
+			<a href='https://openness.bandcamp.com/album/blossom'><div class='rcrd'><img src='assets/blossom.jpg'/><h1>Blossom</h1></div></a>
+		</div>
+	</div>
 
 	<div class='content videos' id='videos'>
 		<div class='title'>Videos</div>
@@ -44,16 +80,6 @@
 					<iframe class="responsive-iframe" src="https://www.youtube.com/embed/AqsTk0mkafA?controls=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div class='content music' id='music'>
-		<div class='title'>Music</div>
-		<div class='musicreleases'>
-			<a href='https://openness.bandcamp.com/'><div class='rcrd'><img src='assets/journey.jpg'/></div></a>
-			<a href='https://openness.bandcamp.com/album/songs-from-the-open-nest'><div class='rcrd'><img src='assets/opennest.jpg'/></div></a>
-			<a href='https://openness.bandcamp.com/album/artistree'><div class='rcrd'><img src='assets/artistree.jpg'/></div></a>
-			<a href='https://openness.bandcamp.com/album/blossom'><div class='rcrd'><img src='assets/blossom.jpg'/></div></a>
 		</div>
 	</div>
 
@@ -90,10 +116,10 @@
 	</div>
 
 	<div class='footer'>
-		<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.png"></a>
-		<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.png"></a>
-		<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.png"></a>
-		<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.png"></a>
+		<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
+		<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
+		<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.svg"></a>
+		<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.svg"></a>
 	</div>
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -104,3 +130,4 @@
 </body>
 
 </html>
+
