@@ -23,6 +23,7 @@ h1{
     position: relative;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    border: 4px solid white;
 }
 .responsive-iframe {
     position: absolute;
@@ -55,6 +56,7 @@ h1{
 .icons img{
     height:40px;
     padding: 14px 5px;
+    filter:invert(100%);
 }
 .icons img:hover{
     opacity:0.8;
@@ -69,7 +71,6 @@ h1{
     width:100%;
     background-color:white;
     cursor: pointer;
-    padding: 8px 0;
 }
 .entry:hover{
     opacity:0.8;
@@ -77,16 +78,18 @@ h1{
 .platform{
     flex: 50%;
     text-align:center;
+    
 }
 .platform img{
     display:block;
-    height:25px;
+    height:24px;
     margin: 0 auto;
+    padding: 17px 0;
 }
-
 .action{
     flex: 50%;
     text-align:center;
+    padding: 17px 0;
 }
 .header{
     width:90%;
@@ -146,6 +149,7 @@ h1{
     display:inline-block;
     height:70px;
     padding: 14px 5px;
+    filter:invert(100%);
 }
 @media screen and (max-width: 600px) {
     .share{
@@ -157,7 +161,7 @@ h1{
     }
     .art img{
         margin: 0 auto;
-        max-width:300px;
+        max-width:240px;
     }
     .links{
         padding-top:10px;

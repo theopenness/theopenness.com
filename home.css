@@ -155,7 +155,7 @@ body{
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
     position: relative;
     display:none;
 }
@@ -214,4 +214,25 @@ body{
     .footer{
         display:none;
     }
+}
+
+
+.collapsible {
+    
+  }
+
+  .bontent {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #000000;
+  }
+  .bontent a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    cursor:pointer;
 }

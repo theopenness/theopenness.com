@@ -13,28 +13,24 @@
 </head>
 
 <body>
-
-	<div class="topnav">
+	<div class='topnav'>
 		<a href="#home" class="active">Logo</a>
-		<!-- Navigation links (hidden by default) -->
-		<div id="myLinks">
-			<a onclick="document.getElementById('videos').scrollIntoView(true);myFunction();">Videos</a>
-			<a onclick="document.getElementById('music').scrollIntoView(true);myFunction();">Music</a>
-			<a onclick="document.getElementById('collaborators').scrollIntoView(true);myFunction();">Collaborators</a>
-			<a onclick="document.getElementById('bio').scrollIntoView(true);myFunction();">Bio</a>
-		</div>
-		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		  <i class="fa fa-bars"></i>
+		<a href="javascript:void(0);" class="icon collapsible">
+			<i class="fa fa-bars"></i>
 		</a>
 		<div class='iconz'>
-			<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
-			<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
 			<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.svg"></a>
+			<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
+			<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
 			<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.svg"></a>
 		</div>
 	</div>
-	
+	<div class="bontent" id='bontent'>
+		<a onclick="document.getElementById('videos').scrollIntoView(true);">Videos</a>
+		<a onclick="document.getElementById('music').scrollIntoView(true);">Music</a>
+		<a onclick="document.getElementById('collaborators').scrollIntoView(true);">Collaborators</a>
+		<a onclick="document.getElementById('bio').scrollIntoView(true);">Bio</a>
+	</div>
 	
 	<div class='header'>
 		<div class='sections'>
@@ -44,14 +40,13 @@
 			<a onclick="document.getElementById('bio').scrollIntoView(true);">Bio</a>
 		</div>
 		<div class='icons'>
-			<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
-			<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
 			<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.svg"></a>
+			<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
+			<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
 			<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.svg"></a>
 		</div>
 	</div>
 	
-
 	<div class='content music' id='music'>
 		<div class='title'>Music</div>
 		<div class='musicreleases'>
