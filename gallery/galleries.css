@@ -1,0 +1,16 @@
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1};
+}
+.image-row {
+	width: 100%;
+	white-space:nowrap;
+	line-height: 0;
+	display: flex;
+}
+.wrapper img{	
+	overflow: hidden;
+	margin-right:3px;
+	margin-bottom:3px;
+}

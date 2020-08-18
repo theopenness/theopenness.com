@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel='stylesheet' type='text/css' href='home.css'>
+	<link rel='stylesheet' type='text/css' href='gallery/galleries.css'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -31,6 +32,7 @@
 		<a class='collapsible' onclick="document.getElementById('videos').scrollIntoView(true);">Videos</a>
 		<a class='collapsible' onclick="document.getElementById('collaborators').scrollIntoView(true);">Collaborators</a>
 		<a class='collapsible' onclick="document.getElementById('bio').scrollIntoView(true);">Bio</a>
+		<a class='collapsible' onclick="document.getElementById('photos').scrollIntoView(true);">Photos</a>
 	</div>
 	
 	<div class='header'>
@@ -39,6 +41,7 @@
 			<a onclick="document.getElementById('videos').scrollIntoView(true);">Videos</a>
 			<a onclick="document.getElementById('collaborators').scrollIntoView(true);">Collaborators</a>
 			<a onclick="document.getElementById('bio').scrollIntoView(true);">Bio</a>
+			<a onclick="document.getElementById('photos').scrollIntoView(true);">Photos</a>
 		</div>
 		<div class='icons'>
 			<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.svg"></a>
@@ -112,6 +115,11 @@
 		</div>
 	</div>
 
+	<div class='content photo' id='photos'>
+		<div class='title'>Photos</div>
+		<div class="wrapper"></div>
+	</div>
+
 	<div class='footer'>
 		<a href="https://www.instagram.com/theopenness/" target='_blank'><img src="assets/instagram.svg"></a>
 		<a href="https://openness.bandcamp.com/" target='_blank'><img src="assets/bandcamp.svg"></a>
@@ -119,11 +127,23 @@
 		<a href="https://open.spotify.com/artist/671PTL2M4TT9q3vh9tkba4" target='_blank'><img src="assets/spotify.svg"></a>
 		<a href="https://www.facebook.com/theopenness/" target='_blank'><img src="assets/facebook.svg"></a>
 	</div>
+	
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="gallery/ImageGrid.js"></script>
+	<script type="text/javascript" src="gallery/bootstrap.js"></script>
 	<script type="text/javascript" src="init.js"></script>
+	<script>
+			$(window).on('resize', function(){
+			
+			$.getScript("gallery/bootstrap.js");
+			$.getScript("gallery/ImageGrid.js");
+		});
+		
+		//testing, at steps? too heavy? wierd with google debugger resizing, not window
+	</script>
 
 </body>
 
