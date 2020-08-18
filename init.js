@@ -42,7 +42,7 @@ for (i = 0; i < coll.length; i++) {
 function toggleNav() {
     var x = document.getElementById("bontent");
     if (x.style.height === "0px") {
-        x.style.height = "250px";
+        x.style.height = "260px";
     } else {
         x.style.height = "0px";
     }
