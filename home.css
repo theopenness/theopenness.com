@@ -118,6 +118,13 @@ body{
     -moz-columns: 2 200px;
     columns: 2 200px;
 }
+.names a{
+    text-decoration:none;
+    color:white;
+}
+.names a:hover{
+    opacity:0.85;
+}
 
 .bio{
     background-image: url('assets/collabblur.jpg');
