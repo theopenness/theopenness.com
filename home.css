@@ -15,7 +15,6 @@ body{
 .slick-slide {
     outline: none;
 }
-div#main-content { display: none; }
 .content{
     padding:16px;
     background-repeat: no-repeat;
@@ -182,7 +181,7 @@ div#main-content { display: none; }
 }
 /* Style the active link (or home/logo) */
 .active {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 .iconz{
     position:absolute !important;
@@ -196,6 +195,7 @@ div#main-content { display: none; }
 .iconz img{
     height:30px;
     padding: 10px 1px;
+    filter:invert(100%);
 }
 .iconz img:hover{
     opacity:0.8;

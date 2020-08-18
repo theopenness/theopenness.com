@@ -24,10 +24,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function() {
-  $('#main-content').fadeIn(1000);
-});
-
 var coll = document.getElementsByClassName("collapsible");
 var i;
 

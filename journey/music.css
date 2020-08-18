@@ -147,11 +147,11 @@ h1{
 }
 .overlay-content img{
     display:inline-block;
-    height:70px;
-    padding: 14px 5px;
+    height:60px;
+    padding: 10px 5px;
     filter:invert(100%);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .share{
         display:block;
     }
