@@ -47,3 +47,9 @@ function toggleNav() {
         x.style.height = "0px";
     }
 }
+
+function sup(){
+	console.log('designed by oliver qiu https://oliverqiu.com/');
+}
+
+setTimeout(sup,3000);
