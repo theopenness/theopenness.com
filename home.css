@@ -142,8 +142,8 @@ body{
     background-color:black;
 }
 .footer img{
-    height:35px;
-    padding: 0 10px;
+    height:30px;
+    padding: 0 6px;
     filter:invert(100%);
 }
 .footer img:hover{
