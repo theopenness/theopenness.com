@@ -149,7 +149,7 @@ h1{
     padding: 2px 5px;
     filter:invert(100%);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .share{
         display:block;
     }
