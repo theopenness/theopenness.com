@@ -14,6 +14,7 @@
 	<link rel='stylesheet' type='text/css' href='gallery/galleries.css'>
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 	<script src='assets/fade.js'></script>
+	<script src='entries/data.js'></script>
 </head>
 
 <body>
@@ -62,114 +63,17 @@
 	
 	<div class='content music' id='music'>
 		<div class='title'>Music</div>
-		<div class='musicreleases'>
-			<a href='/journey/' target='_blank'><div class='rcrd'><img src='assets/journey.jpg'/><h1>Adore the Journey</h1></div></a>
-			<a href='https://distrokid.com/hyperfollow/openness/tunnel-vision' target='_blank'><div class='rcrd'><img src='assets/tunnelvision.jpg'/><h1>Tunnel Vision</h1></div></a>
-			<a href='/tokyo/' target='_blank'><div class='rcrd'><img src='assets/lastsummerintokyo.jpg'/><h1>Last Summer in Tokyo</h1></div></a>
-			
-			<a href='https://openness.bandcamp.com/album/songs-from-the-open-nest' target='_blank'><div class='rcrd'><img src='assets/opennest.jpg'/><h1>Songs from the Open Nest</h1></div></a>
-			<a href='https://openness.bandcamp.com/album/artistree' target='_blank'><div class='rcrd'><img src='assets/artistree.jpg'/><h1>Artistree</h1></div></a>
-			<a href='https://openness.bandcamp.com/album/blossom' target='_blank'><div class='rcrd'><img src='assets/blossom.jpg'/><h1>Blossom</h1></div></a>
-		</div>
+		<div class='musicreleases' id='musicreleases'></div>
 	</div>
 
 	<div class='content videos' id='videos'>
 		<div class='title'>Videos</div>
-		<div class='videoreleases'>
-			
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/232W4kYZTSg?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/0UK7qFX6wfU?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/Dcm6nnO5FW4?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/7Lxm3ylOiUI?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/gk1YazNzs1U?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/OH41aiE7EyY?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/OUogMTJ8yaM?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/jJkfoUpdFoE?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/aseuyRHniow?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/33rpVvb1GZU?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class='vid'>
-				<div class='container'>
-					<iframe class='responsive-iframe' src='https://www.youtube.com/embed/AqsTk0mkafA?controls=0' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
+		<div class='videoreleases' id='videoreleases'></div>
+	</div>	
 
 	<div class='content collaborators' id='collaborators'>
 		<div class='title'>Collaborators</div>
-		<div class='text names'>
-			<a href='https://oliverqiu.com/' target='_blank'>Oliver Qiu</a><br>
-			<a href='https://open.spotify.com/artist/0V4dkDwF4H24OP6HAyzZT2?si=P0taIrn9ScWL5iswZoIvKQ' target='_blank'>Kyle Loeffler</a><br>
-			<a href='https://open.spotify.com/artist/3mnfCPeV6fz1xyCcLCE1W2?si=T6DSbmikSpe8xlAfbqpBRw' target='_blank'>Ronan Dowling (Ronan Andrews)</a><br>
-			<a href='https://rosemarysprig.bandcamp.com/' target='_blank'>Hannah Stomski (Rosemary)</a><br>
-			<a href='https://j-mo.bandcamp.com/' target='_blank'>Jaemeraquan David (Jaemeraquan)</a><br>
-			<a href='https://open.spotify.com/artist/2xtFxo10GnCNUDGZbykA7P?si=_Y0T7QMaQFG8-hSlaO-x1A' target='_blank'>Julia Stoermer (Jooly)</a><br>
-			<a href='https://thebeachpeople.bandcamp.com/' target='_blank'>Kevin Cincotta</a><br>
-			<a href='https://open.spotify.com/artist/6lTmUkd2VieovYFr6QBcFD?si=T-FdwyDBTEeMuVSrHjq2eA' target='_blank'>Brodie Eastridge</a><br>
-			<a href='https://open.spotify.com/artist/3PqrDJmnmIbb2KJV70SYKH?si=tbBFGDtJQh6IasKV58Vt6w' target='_blank'>Joseph Figueroa</a><br>
-			Alex Kah<br>
-			<a href='https://open.spotify.com/artist/51v3qPD0rpxSN8pHUWO9ZO?si=DDljqbKwQv-katMvKauOLw' target='_blank'>Kendon McGehee (Tarantula Bill)</a><br>
-			<a href='https://open.spotify.com/artist/5w3XZFFZtefQtBYM0liqEW?si=wwwFlrCfTrKvjQDeaZifyw' target='_blank'>Dante Robledo (Don Scrawn)</a><br>
-			<a href='https://open.spotify.com/artist/0ob3DBheTSlGC666UtNmIY?si=pJ-EObFFQhKYjGmrrLamrw' target='_blank'>Josh Van Wey</a><br>
-			<a href='https://open.spotify.com/artist/021Xr8IrEYBBXrM1VJaJaZ?si=AUEFlIb8RwK8e-RhZcn1jw' target='_blank'>Lauren Tilton (ii/lo)</a><br>
-			<a href='https://open.spotify.com/artist/2rRKwSbT80Ss7cfcz8FeAG?si=xvuyT12JSbqHM0qvew2WhQ' target='_blank'>Julian Strütt (SENTO)</a><br>
-			<a href='https://thebeachpeople.bandcamp.com/' target='_blank'>Bridget Hartman</a><br>
-			<a href='https://www.facebook.com/fauxmantramusic/' target='_blank'>Chere Merrick</a><br>
-			<a href='https://open.spotify.com/artist/0csieCZp0tmszjRn542gTV?si=tVo5Jq7cToW20saYH9C60Q' target='_blank'>Nate Perkins</a><br>
-			<a href='https://soundcloud.com/julia-walters' target='_blank'>Julia Walters</a><br>
-			Emilia Richter<br>
-			<a href='https://www.instagram.com/mirandaraehey/' target='_blank'>Miranda Junasa</a><br>
-			<a href='https://dreampool.bandcamp.com/releases' target='_blank'>Riley Merino</a><br>
-			<a href='https://open.spotify.com/artist/0hFZ0YjjAxZwn2kbTTIGv2?si=PuX-xbQcRqSh6ekWygFNow' target='_blank'>April Levin (April Gloom)</a><br>
-			<a href='https://camelmile.bandcamp.com/releases' target='_blank'>Cash Globe</a><br>
-			<a href='https://afterthecarnival.bandcamp.com/' target='_blank'>Julia Hoffman</a><br>
-			<a href='https://upstandingcitizen.bandcamp.com/' target='_blank'>Cole Eckert</a><br>
-			<a href='https://upstandingcitizen.bandcamp.com/' target='_blank'>Sam Waugaman</a><br>
-			Alia Norwood<br>
-			<a href='https://open.spotify.com/artist/558ImT4Z24CcO5QnH4gxZy?si=JWFbaPBASxOB8OyTdrWFlw' target='_blank'>Chris Lee (Scooterraps)</a><br>
-			<a href='https://www.instagram.com/whitetrashwilly/' target='_blank'>Will Cashion</a><br>
-			<a href='https://benparrish.bandcamp.com/' target='_blank'>Ben Parrish</a>
-		</div>
+		<div class='text names' id='textnames'></div>
 	</div>
 
 	<div class='content bio' id='bio'>
@@ -205,7 +109,7 @@
 		<a href='https://www.facebook.com/theopenness/' target='_blank'><img src='assets/facebook.svg'></a>
 	</div>
 	
-
+	<script type='text/javascript' src='assets/load.js'></script>
 	<script type='text/javascript' src='//code.jquery.com/jquery-1.11.0.min.js'></script>
 	<script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
 	<script type='text/javascript' src='slick/slick.min.js'></script>
@@ -214,9 +118,8 @@
 	<script type='text/javascript' src='init.js'></script>
 	<script>
 			$(window).on('resize', function(){
-			
-			$.getScript('gallery/bootstrap.js');
-			$.getScript('gallery/ImageGrid.js');
+				$.getScript('gallery/bootstrap.js');
+				$.getScript('gallery/ImageGrid.js');
 		});
 		
 		//testing, at steps? too heavy? wierd with google debugger resizing, not window
