@@ -19,7 +19,7 @@ var music = [
         name:"Adore the Journey"
     },
     {
-        link:"https://distrokid.com/hyperfollow/openness/tunnel-vision",
+        link:"/tunnel/",
         image:"tunnelvision.jpg",
         name:"Tunnel Vision"
     },
