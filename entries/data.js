@@ -78,6 +78,10 @@ var collaborators = [
         link:"https://thebeachpeople.bandcamp.com/",
         name:"Kevin Cincotta"
     },
+        {
+        link:"https://open.spotify.com/artist/0csieCZp0tmszjRn542gTV?si=boG-I9A6T_iGsnOuHbG27w",
+        name:"Nate Perkins"
+    },
     {
         link:"https://open.spotify.com/artist/6lTmUkd2VieovYFr6QBcFD?si=T-FdwyDBTEeMuVSrHjq2eA",
         name:"Brodie Eastridge"
@@ -93,6 +97,10 @@ var collaborators = [
     {
         link:"https://open.spotify.com/artist/51v3qPD0rpxSN8pHUWO9ZO?si=DDljqbKwQv-katMvKauOLw",
         name:"Kendon McGehee (Tarantula Bill)"
+    },
+    {
+        link:"https://open.spotify.com/artist/4a9y1VGMnwyElXd81Rtezd?si=RWbiz1D4SyO1qLIYpGlC9g",
+        name:"Chere Merrick"
     },
     {
         link:"https://open.spotify.com/artist/5w3XZFFZtefQtBYM0liqEW?si=wwwFlrCfTrKvjQDeaZifyw",
@@ -125,6 +133,11 @@ var collaborators = [
     {
         link:"https://www.instagram.com/mirandaraehey/",
         name:"Miranda Junasa"
+    },
+  
+    {
+        link:"https://www.instagram.com/guacachorro/",
+        name:"Elle Alejandres"
     },
     {
         link:"https://dreampool.bandcamp.com/releases",
