@@ -1,17 +1,3 @@
-var videos = [
-    "https://www.youtube.com/embed/232W4kYZTSg?controls=0",
-    "https://www.youtube.com/embed/0UK7qFX6wfU?controls=0",
-    "https://www.youtube.com/embed/Dcm6nnO5FW4?controls=0",
-    "https://www.youtube.com/embed/7Lxm3ylOiUI?controls=0",
-    "https://www.youtube.com/embed/gk1YazNzs1U?controls=0",
-    "https://www.youtube.com/embed/OH41aiE7EyY?controls=0",
-    "https://www.youtube.com/embed/OUogMTJ8yaM?controls=0",
-    "https://www.youtube.com/embed/jJkfoUpdFoE?controls=0",
-    "https://www.youtube.com/embed/aseuyRHniow?controls=0",
-    "https://www.youtube.com/embed/33rpVvb1GZU?controls=0",
-    "https://www.youtube.com/embed/AqsTk0mkafA?controls=0"
-];
-
 var music = [
     {
         link:"/journey/",
@@ -43,6 +29,20 @@ var music = [
         image:"blossom.jpg",
         name:"Blossom"
     }
+];
+
+var videos = [
+    "https://www.youtube.com/embed/232W4kYZTSg?controls=0",
+    "https://www.youtube.com/embed/0UK7qFX6wfU?controls=0",
+    "https://www.youtube.com/embed/Dcm6nnO5FW4?controls=0",
+    "https://www.youtube.com/embed/7Lxm3ylOiUI?controls=0",
+    "https://www.youtube.com/embed/gk1YazNzs1U?controls=0",
+    "https://www.youtube.com/embed/OH41aiE7EyY?controls=0",
+    "https://www.youtube.com/embed/OUogMTJ8yaM?controls=0",
+    "https://www.youtube.com/embed/jJkfoUpdFoE?controls=0",
+    "https://www.youtube.com/embed/aseuyRHniow?controls=0",
+    "https://www.youtube.com/embed/33rpVvb1GZU?controls=0",
+    "https://www.youtube.com/embed/AqsTk0mkafA?controls=0"
 ];
 
 var collaborators = [
@@ -163,3 +163,12 @@ var collaborators = [
         name:"Ben Parrish"
     }
 ];
+
+var bio = [
+    "Openness isn’t interested in following trends. Openness seeks to explore our connection to the universe through timeless expression and unconditional love. This is the recording project of Keelan McDorman, brought to life through collaboration with a plethora of musicians. Openness songs are written out in nature and then recorded and produced in Keelan’s home, “The Open Nest” cottage in Denver, Colorado. The name is the essence of the music, for it is created from a place of openness. This translates to the listener, because when music is created genuinely, it will be received genuinely.",
+    "It is now crystal clear that humanity is at a point of unprecedented unbalance. The destruction of our own planet and all the unnecessary suffering is a result of the fact that we continue to take and take, while giving very little. There will come a time when there is no more left to take. We need to switch direction.",
+    "image",
+    "Openness seeks to give . . . to be part of a reversal of the direction of humanity by crafting love songs (not love in the romantic sense, but a deeper kind of love which is rooted in an intuitive sensation of the interconnectedness of all things and the all-pervading awareness and contentment of the present moment.)",
+    "To categorize Openness is to put it into a box, but it has been described as indie dream pop, psychedelic soul, and lo-fi bedroom pop among others. Everything about each tune is entirely up for interpretation; take from it what you will. Keelan feels that the songs come through him rather than from him, as though he is more of a musical messenger than anything else.",
+    "So far, Openness has released 38 songs featuring 31 different musicians. That gives you an idea of the trajectory of Openness. This musical message is stamped for priority delivery."
+]

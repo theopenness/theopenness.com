@@ -39,8 +39,20 @@ for(var i=0;i<collaborators.length;i++){
         collabtext+='<a href=\''+c.link+'\' target=\'_blank\'>'+c.name+'<\/a>'
     }
     if(i!=collaborators.length-1){
-        collabtext+="<br>"
+        collabtext+='<br>'
     }
 }
 
 document.getElementById('textnames').innerHTML = collabtext;
+
+var biotext ='';
+
+for(var i=0;i<bio.length;i++){
+    if(bio[i]=='image'){
+        biotext+='<img src=\'assets\/bio.jpg\' style=\'width:80%;max-width:800px;\'\/>';
+    }else{
+        biotext+='<p>'+bio[i]+'<\/p>';
+    }
+}
+
+document.getElementById('text').innerHTML = biotext;
