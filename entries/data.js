@@ -51,6 +51,10 @@ var collaborators = [
         name:"Oliver Qiu"
     },
     {
+        link:"https://open.spotify.com/artist/3AbONfWXnVE3WWxe9SdL15?si=hOm6FgENS-aWk8pmzW-jfw",
+        name:"Kerry Hickli (Kers)"
+    },
+    {
         link:"https://open.spotify.com/artist/0V4dkDwF4H24OP6HAyzZT2?si=P0taIrn9ScWL5iswZoIvKQ",
         name:"Kyle Loeffler"
     },
@@ -116,7 +120,7 @@ var collaborators = [
     },
     {
         link:"none",
-        name:"Emilia Richte"
+        name:"Emilia Richter"
     },
     {
         link:"https://www.instagram.com/mirandaraehey/",
@@ -152,7 +156,7 @@ var collaborators = [
     },
     {
         link:"https://open.spotify.com/artist/558ImT4Z24CcO5QnH4gxZy?si=JWFbaPBASxOB8OyTdrWFlw",
-        name:"Chris Lee (Scooterraps)"
+        name:"Chris Lee"
     },
     {
         link:"https://www.instagram.com/whitetrashwilly/",
