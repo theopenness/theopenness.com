@@ -6,7 +6,7 @@ var music = [
     },
     {
         link:"https://distrokid.com/hyperfollow/openness/television-turnaround",
-        image:"Television Turnaround Single Cover (4000x4000).jpg",
+        image:"tvturnaround.jpg",
         name:"Television Turnaround"
     },
     {
