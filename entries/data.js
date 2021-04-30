@@ -5,7 +5,7 @@ var music = [
         name:"Adore the Journey"
     },
     {
-        link:"https://distrokid.com/hyperfollow/openness/television-turnaround-2",
+        link:"/turnaround/",
         image:"tvturnaround.jpg",
         name:"Television Turnaround"
     },
