@@ -196,11 +196,12 @@ var bio = [
 ]
 
 var merchpics = [
-    "merch1tee.jpg",
+    
     "merch2tees.jpg",
     "merch3maliatees.jpg",
     "merch4hoodie.jpg",
-    "merch5tanks.jpg"
+    "merch5tanks.jpg",
+	"merch1tee.jpg"
 ];
 
 var merchtext = [
