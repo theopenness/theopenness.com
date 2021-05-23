@@ -22,6 +22,18 @@ $(document).ready(function(){
         waitForAnimate: false,
         centerPadding: 10
     });
+    $('.merchpics').slick({
+      variableWidth: false,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,	
+      centerMode: true,
+      arrows: true,
+      dots: true,
+      speed: 275,
+      waitForAnimate: false,
+      centerPadding: 10
+  });
 });
 
 /*var coll = document.getElementsByClassName("collapsible");
@@ -42,7 +54,7 @@ for (i = 0; i < coll.length; i++) {
 function toggleNav() {
     var x = document.getElementById("bontent");
     if (x.style.height === "0px") {
-        x.style.height = "260px";
+        x.style.height = "310px";
     } else {
         x.style.height = "0px";
     }

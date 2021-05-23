@@ -194,3 +194,18 @@ var bio = [
     "To categorize Openness is to put it into a box, but it has been described as indie dream pop, psychedelic soul, and lo-fi bedroom pop among others. Everything about each tune is entirely up for interpretation; take from it what you will. Keelan feels that the songs come through him rather than from him, as though he is more of a musical messenger than anything else.",
     "So far, Openness has released 39 songs featuring 33 different musicians. That gives you an idea of the trajectory of Openness. This musical message is stamped for priority delivery."
 ]
+
+var merchpics = [
+    "merch1tee.jpg",
+    "merch2tees.jpg",
+    "merch3maliatees.jpg",
+    "merch4hoodie.jpg",
+    "merch5tanks.jpg"
+];
+
+var merchtext = [
+    "Email Keelanmcd@gmail.com for all color/size options and to place an order.",
+    "Adore the Journey tees or tanks (direct-to-garment print on Next Level 3600) - $20 USD",
+    "Adore the Journey hoodie - $30 USD",
+    "Shipping costs $5 USD for tees/tanks and $10 USD for hoodies. Email Keelanmcd@gmail.com for international shipping prices, which vary depending on where you live.",
+];

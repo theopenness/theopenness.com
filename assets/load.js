@@ -56,3 +56,32 @@ for(var i=0;i<bio.length;i++){
 }
 
 document.getElementById('text').innerHTML = biotext;
+
+/*
+<img src='assets/merch1tee.jpg'/></div>
+<div class='merchpic'><img src='assets/merch2tees.jpg'/></div>
+<div class='merchpic'><img src='assets/merch3maliatees.jpg'/></div>
+<div class='merchpic'><img src='assets/merch4hoodie.jpg'/></div>
+<div class='merchpic'><img src='assets/merch5tanks.jpg'/></div>
+*/
+
+var merchpicstxt = '';
+for(var i=0;i<merchpics.length;i++){
+    merchpicstxt += '<div class=\'merchpic\'><img src=\'assets\/'+merchpics[i]+'\'\/><\/div>';
+}
+document.getElementById('merchpics').innerHTML = merchpicstxt;
+
+var merchtxt ='';
+
+for(var i=0;i<merchtext.length;i++){
+    if(merchtext[i].includes("Keelanmcd@gmail.com")){
+        var place = merchtext[i].indexOf("Keelanmcd@gmail.com");
+        console.log("sup");
+        merchtxt+='<p>'+merchtext[i].substring(0,place)+'<a href="mailto:someone@yoursite.com">Keelanmcd@gmail.com</a>'+merchtext[i].substring(place+19)+'<\/p>';
+    }
+    else{
+        merchtxt+='<p>'+merchtext[i]+'<\/p>';
+    }
+}
+
+document.getElementById('textmerch').innerHTML = merchtxt;

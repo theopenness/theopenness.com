@@ -130,6 +130,25 @@ body{
     color:white;
 }
 
+.merch{
+    background-image: url('assets/merchblur.jpg');
+    color:white;
+}
+.merch a{
+    color:#add8e6;
+}
+.merchpic img{
+    margin: 0 auto;
+    max-width:600px;
+    width:95%;
+    display:block;
+}
+.merchpics{
+    margin: 0 auto;
+    max-width:1200px;
+    width:92%;
+}
+
 .photo{
     background-image: url('assets/musicblur.jpg');
     color:white;
