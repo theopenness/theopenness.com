@@ -219,7 +219,7 @@
 				output += '<div class="image-row">';
 				for(var n = 0; n < rows[i].length; n++) {
 					var image = rows[i][n];
-					output += '<img src="' + image.image + '" style="width:' + Math.ceil(image.width) + 'px; height:' + image.height + 'px;" />';
+					output += '<img class="lazyload" data-src="' + image.image + '" style="width:' + Math.ceil(image.width) + 'px; height:' + image.height + 'px;" />';
 				}
 				output += '</div>';
 			}

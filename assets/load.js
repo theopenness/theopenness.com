@@ -7,7 +7,7 @@ var videotext = '';
 </div>
 */
 for(var i=0;i<videos.length;i++){
-    videotext += '<div class=\'vid\'>\r\n\t\t\t\t<div class=\'container\'>\r\n\t\t\t\t\t<iframe class=\'responsive-iframe\' src=\''
+    videotext += '<div class=\'vid\'>\r\n\t\t\t\t<div class=\'container\'>\r\n\t\t\t\t\t<iframe class=\'responsive-iframe lazyload\' data-src=\''
         +videos[i]+'\' frameborder=\'0\' allowfullscreen><\/iframe>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>';
 }
 
@@ -19,8 +19,8 @@ var musictext = '';
 */
 for(var i=0;i<music.length;i++){
     musictext += '<a href=\''
-        +music[i].link+'\' target=\'_blank\'><div class=\'rcrd\'><img src=\'..\/assets\/'
-        +music[i].image+'\'\/><h1>'+music[i].name+'<\/h1><\/div><\/a>';
+        +music[i].link+'\' target=\'_blank\'><div class=\'rcrd\'><img data-src=\'..\/assets\/'
+        +music[i].image+'\' class=\'lazyload\'\/><h1>'+music[i].name+'<\/h1><\/div><\/a>';
 }
 
 document.getElementById('musicreleases').innerHTML = musictext;
@@ -49,7 +49,7 @@ var biotext ='';
 
 for(var i=0;i<bio.length;i++){
     if(bio[i]=='image'){
-        biotext+='<img src=\'assets\/bio.jpg\' style=\'width:80%;max-width:800px;\'\/>';
+        biotext+='<img data-src=\'assets\/bio.jpg\' class=\'lazyload\' style=\'width:80%;max-width:800px;\'\/>';
     }else{
         biotext+='<p>'+bio[i]+'<\/p>';
     }
@@ -67,7 +67,7 @@ document.getElementById('text').innerHTML = biotext;
 
 var merchpicstxt = '';
 for(var i=0;i<merchpics.length;i++){
-    merchpicstxt += '<div class=\'merchpic\'><img src=\'assets\/'+merchpics[i]+'\'\/><\/div>';
+    merchpicstxt += '<div class=\'merchpic\'><img data-src=\'assets\/'+merchpics[i]+'\' class="lazyload"\/><\/div>';
 }
 document.getElementById('merchpics').innerHTML = merchpicstxt;
 
