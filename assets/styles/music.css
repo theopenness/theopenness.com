@@ -1,7 +1,7 @@
 .icon:hover img {
     opacity: 0.8;
 }
-@font-face { font-family: TravelingTypewriter; src: url('../assets/TravelingTypewriter.ttf'); }
+@font-face { font-family: TravelingTypewriter; src: url('/assets/TravelingTypewriter.ttf'); }
 body{
     font-family: TravelingTypewriter;
     background-repeat: no-repeat;

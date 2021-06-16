@@ -1,4 +1,4 @@
-@font-face { font-family: TravelingTypewriter; src: url('assets/TravelingTypewriter.ttf'); }
+@font-face { font-family: TravelingTypewriter; src: url('/assets/TravelingTypewriter.ttf'); }
 html {
     scroll-behavior: smooth;
 }
@@ -62,11 +62,11 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url('assets/artistreeblur.jpg');
+    background-image: url('/assets/pics/bgs/artistreeblur.jpg');
     height:500px;
 }
 .videos{
-    background-image: url('assets/collabblur.jpg');
+    background-image: url('/assets/pics/bgs/collabblur.jpg');
     color:white;
 }
 .videoreleases{
@@ -76,7 +76,7 @@ body{
 }
 
 .music{
-    background-image: url('assets/collabblur.jpg');
+    background-image: url('/assets/pics/bgs/collabblur.jpg');
     color:white;
 }
 .musicreleases{
@@ -104,7 +104,7 @@ body{
 }
 
 .collaborators{
-    background-image: url('assets/photoblur.jpg');
+    background-image: url('/assets/pics/bgs/photoblur.jpg');
     color:white;
 }
 .text{
@@ -126,12 +126,12 @@ body{
 }
 
 .bio{
-    background-image: url('assets/photoblur.jpg');
+    background-image: url('/assets/pics/bgs/photoblur.jpg');
     color:white;
 }
 
 .merch{
-    background-image: url('assets/merchblur.jpg');
+    background-image: url('/assets/pics/bgs/merchblur.jpg');
     color:white;
 }
 .merch a{
@@ -150,7 +150,7 @@ body{
 }
 
 .photo{
-    background-image: url('assets/musicblur.jpg');
+    background-image: url('/assets/pics/bgs/musicblur.jpg');
     color:white;
 }
 

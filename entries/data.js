@@ -1,37 +1,37 @@
 var music = [
     {
         link:"/journey/",
-        image:"journey.jpg",
+        image:"/assets/pics/music/journey.jpg",
         name:"Adore the Journey"
     },
     {
         link:"/turnaround/",
-        image:"tvturnaround.jpg",
+        image:"/assets/pics/music/tvturnaround.jpg",
         name:"Television Turnaround"
     },
     {
         link:"/tunnel/",
-        image:"tunnelvision.jpg",
+        image:"/assets/pics/music/tunnelvision.jpg",
         name:"Tunnel Vision"
     },
     {
         link:"/tokyo/",
-        image:"lastsummerintokyo.jpg",
+        image:"/assets/pics/music/lastsummerintokyo.jpg",
         name:"Last Summer in Tokyo"
     },
     {
         link:"https://openness.bandcamp.com/album/songs-from-the-open-nest",
-        image:"opennest.jpg",
+        image:"/assets/pics/music/opennest.jpg",
         name:"Songs from the Open Nest"
     },
     {
         link:"https://openness.bandcamp.com/album/artistree",
-        image:"artistree.jpg",
+        image:"/assets/pics/music/artistree.jpg",
         name:"Artistree"
     },
     {
         link:"https://openness.bandcamp.com/album/blossom",
-        image:"blossom.jpg",
+        image:"/assets/pics/music/blossom.jpg",
         name:"Blossom"
     }
 ];
@@ -196,12 +196,11 @@ var bio = [
 ]
 
 var merchpics = [
-    
-    "merch2tees.jpg",
-    "merch3maliatees.jpg",
-    "merch4hoodie.jpg",
-    "merch5tanks.jpg",
-	"merch1tee.jpg"
+    "/assets/pics/merch/merch2tees.jpg",
+    "/assets/pics/merch/merch3maliatees.jpg",
+    "/assets/pics/merch/merch4hoodie.jpg",
+    "/assets/pics/merch/merch5tanks.jpg",
+	"/assets/pics/merch/merch1tee.jpg"
 ];
 
 var merchtext = [
@@ -210,3 +209,136 @@ var merchtext = [
     "Adore the Journey hoodie - $30 USD",
     "Shipping costs $5 USD for tees/tanks and $10 USD for hoodies. Email Keelanmcd@gmail.com for international shipping prices, which vary depending on where you live.",
 ];
+
+var photos = [
+    {
+      "image": "/assets/pics/gallery/1.jpg",
+      "width": 1494,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/2.jpg",
+      "width": 980,
+      "height": 980
+    },
+    {
+      "image": "/assets/pics/gallery/3.jpg",
+      "width": 1000,
+      "height": 1497
+    },
+    {
+      "image": "/assets/pics/gallery/4.jpg",
+      "width": 1000,
+      "height": 1376
+    },
+     {
+      "image": "/assets/pics/gallery/5.jpg",
+      "width": 1497,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/6.jpg",
+      "width": 800,
+      "height": 1198
+    },
+    {
+      "image": "/assets/pics/gallery/7.jpg",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "image": "/assets/pics/gallery/8.jpg",
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "image": "/assets/pics/gallery/9.jpg",
+      "width": 1000,
+      "height": 1494
+    },
+    {
+      "image": "/assets/pics/gallery/10.jpg",
+      "width": 1000,
+      "height": 1038
+    },
+    {
+      "image": "/assets/pics/gallery/11.jpg",
+      "width": 1498,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/12.jpg",
+      "width": 720,
+      "height": 1040
+    },
+    {
+      "image": "/assets/pics/gallery/13.jpg",
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "image": "/assets/pics/gallery/14.jpg",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/15.jpg",
+      "width": 720,
+      "height": 1080
+    },
+    {
+      "image": "/assets/pics/gallery/16.jpg",
+      "width": 1500,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/17.jpg",
+      "width": 1403,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/18.jpg",
+      "width": 1000,
+      "height": 1506
+    },
+    {
+      "image": "/assets/pics/gallery/19.jpg",
+      "width": 1000,
+      "height": 1664
+    },
+    {
+      "image": "/assets/pics/gallery/20.jpg",
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "image": "/assets/pics/gallery/21.jpg",
+      "width": 1506,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/22.jpg",
+      "width": 1591,
+      "height": 1000
+    },
+    {
+      "image": "/assets/pics/gallery/23.jpg",
+      "width": 1000,
+      "height": 1506
+    },
+    {
+      "image": "/assets/pics/gallery/24.jpg",
+      "width": 1000,
+      "height": 1497
+    },
+    {
+      "image": "/assets/pics/gallery/25.jpg",
+      "width": 1000,
+      "height": 1250
+    },
+    {
+      "image": "/assets/pics/gallery/26.jpg",
+      "width": 1506,
+      "height": 1000
+    }
+  ]
