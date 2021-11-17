@@ -116,7 +116,7 @@ var collaborators = [
         name:"Josh Van Wey"
     },
     {
-        link:"https://open.spotify.com/artist/021Xr8IrEYBBXrM1VJaJaZ?si=AUEFlIb8RwK8e-RhZcn1jw",
+        link:"https://www.itsmusictimedudes.com/",
         name:"Lauren Tilton (ii/lo)"
     },
     {
