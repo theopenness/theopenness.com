@@ -5,6 +5,11 @@ var music = [
         name:"Adore the Journey"
     },
     {
+      link:"/youonlylivetwice/",
+      image:"/assets/pics/music/youonlylivetwice.jpg",
+      name:"You Only Live Twice"
+    },
+    {
         link:"/turnaround/",
         image:"/assets/pics/music/tvturnaround.jpg",
         name:"Television Turnaround"
