@@ -42,6 +42,8 @@ var music = [
 ];
 
 var videos = [
+
+    "https://www.youtube.com/embed/nWBaSwUcXoE?controls=0",
     "https://www.youtube.com/embed/232W4kYZTSg?controls=0",
     "https://www.youtube.com/embed/0UK7qFX6wfU?controls=0",
     "https://www.youtube.com/embed/Dcm6nnO5FW4?controls=0",
@@ -64,6 +66,10 @@ var collaborators = [
         link:"https://open.spotify.com/artist/3AbONfWXnVE3WWxe9SdL15?si=hOm6FgENS-aWk8pmzW-jfw",
         name:"Kerry Hickli (Kers)"
     },
+    {
+        link:"https://open.spotify.com/artist/0fHke0FX5RQOe0E5nPpeRI?si=g1QgqSqERgyUYt6Z7VYi_A",
+        name:"Lucille Two"
+    },	
     {
         link:"https://open.spotify.com/artist/0V4dkDwF4H24OP6HAyzZT2?si=P0taIrn9ScWL5iswZoIvKQ",
         name:"Kyle Loeffler"
