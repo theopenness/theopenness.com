@@ -203,7 +203,7 @@ var bio = [
     "image",
     "Openness seeks to give — to be part of a reversal of the direction of humanity by crafting songs of love . . . not love in the romantic sense, but a deeper kind of love which is rooted in an intuitive sensation of the interconnectedness of all things and the all-pervading awareness and contentment of the present moment. Journey Simmons of 303 Magazine writes, “Building connection – to ourselves, to each other, to the world around us — is the foundation of Openness’ artistic ethos.”",
     "To categorize Openness is to put it into a box, but it has been described as indie dream pop, psychedelic soul, and lo-fi bedroom pop among others. Everything about each tune is entirely up for interpretation; take from it what you will. Keelan feels that the songs come through him rather than from him, as though he is more of a musical messenger than anything else.",
-    "So far, Openness has released 42 songs featuring 34 different musicians. This musical message is stamped for priority delivery, but is never rushed . . . for it is paradoxically in a constant state of departure while already having arrived. 
+    "So far, Openness has released 42 songs featuring 34 different musicians. This musical message is stamped for priority delivery, but is never rushed . . . for it is paradoxically in a constant state of departure while already having arrived." 
 ]
 
 var merchpics = [
